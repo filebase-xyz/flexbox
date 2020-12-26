@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    border: 0.3rem dashed red;
+    background: paleturquoise;   
+}
+
+header, main, footer {
+    border: 0.3rem dashed blue;
+    background: yellow;
+}

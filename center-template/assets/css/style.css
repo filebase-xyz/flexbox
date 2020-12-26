@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body{
+    margin: 0px;  
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900; 
+}
+
+.box {
+    background: paleturquoise;
+    border: 0.5rem dashed blue; 
+    padding: 1rem;  
+}
+
+.item{
+    background: rgb(240, 255, 102);
+    border: 0.5rem dashed red;
+    height: 25rem;
+    width: 25rem;   
+    font-size: 5rem;
+}
