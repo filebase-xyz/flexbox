@@ -1,6 +1,6 @@
-
 * {
     box-sizing: border-box;
+    overflow: auto;
 }
 
 html {
@@ -13,11 +13,14 @@ body {
 }
 
 .container {
-    border: 0.3rem dashed red;
-    background: paleturquoise;   
-}
+    width: clamp(460px, 70vw, 960px);
+    margin: 0 auto;
+    background-color: cadetblue;
+ }
 
 header, main, footer {
-    border: 0.3rem dashed blue;
-    background: yellow;
+    background: yellow; 
+    padding: 1rem;
+    margin: 1rem;
 }
+
