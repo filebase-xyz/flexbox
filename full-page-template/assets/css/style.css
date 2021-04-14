@@ -13,9 +13,9 @@ body {
 }
 
 .container {
-    width: clamp(460px, 70vw, 960px);
+    width: clamp(576px, 70vw, 992px);
     margin: 0 auto;
-    background-color: cadetblue;
+    background: cadetblue;
  }
 
 header, main, footer {
