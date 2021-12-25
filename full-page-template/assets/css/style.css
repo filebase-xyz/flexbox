@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    overflow: auto;
 }
 
 html {
@@ -10,17 +9,21 @@ html {
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 
 .container {
-    width: clamp(576px, 70vw, 992px);
+    background-color: skyblue;
+    padding: 1rem;
     margin: 0 auto;
-    background: cadetblue;
+    min-width: 576px;
+    width: 70vw;
+    max-width: 992px;
  }
 
 header, main, footer {
     background: yellow; 
     padding: 1rem;
-    margin: 1rem;
+    border: 1px dashed red;
 }
 

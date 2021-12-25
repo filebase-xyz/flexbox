@@ -1,6 +1,7 @@
+    /* Служебный код, обеспечивает раскраску элементов */
+
     * {
         box-sizing: border-box;
-        overflow: auto;
     }
 
     html {
@@ -64,3 +65,5 @@
     main > div:nth-child(10){
         background: rgb(133, 7, 218);
     }
+
+    /* Далее можно размещать свой код */
